@@ -4172,6 +4172,7 @@ class Search {
     setTimeout(() => this.searchField.focus(), 301); //puts cursor in search field automatically
 
     this.isOverlayOpen = true;
+    return false;
   }
 
   closeOverlay() {
